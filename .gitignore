@@ -1,0 +1,93 @@
+# --------------------------------
+# Rust / Cargo Specific
+# --------------------------------
+
+# Target directory (Cargo build output)
+target/
+
+# Cargo lock file (if using libraries, keep it; for binaries, ignore it)
+Cargo.lock
+
+# Build artifacts
+**/*.rlib
+**/*.rmeta
+
+# Rustup toolchain files (if using)
+.rustup/
+cargo-install.log
+
+# Rust documentation
+/target/doc/
+
+# Dependencies (if using vendor)
+vendor/
+
+# --------------------------------
+# IDE / Editor Specific
+# --------------------------------
+
+# JetBrains (CLion, IntelliJ IDEA, RustRover)
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim / Neovim
+*.swp
+*.swo
+*.un~
+.*.sw?
+
+# Emacs
+*~
+\#*\#
+
+# Eclipse
+.metadata/
+bin/
+*.bak
+
+# --------------------------------
+# System Specific
+# --------------------------------
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+
+# Linux system files
+*~
+.nfs*
+
+# --------------------------------
+# Build / Debugging / Testing
+# --------------------------------
+
+# Profiling and debugging output
+*.profdata
+*.dSYM/
+*.gcda
+*.gcno
+*.cov
+*.coverage
+
+# Unit test / integration test outputs
+/tests/target/
+
+# Rustfmt backups
+**/*.rs.bk
+
+# Rust analyzer (if manually enabled)
+.rust-analyzer/
+
